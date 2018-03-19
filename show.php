@@ -55,7 +55,7 @@ foreach($rows as $row){
 <table border='1'>
 	<tr><td>名前</td><td><?php echo $row['name']; ?> </td> </tr>
         <tr><td>性別</td><td><?php echo $row['sex']; ?></td> </tr>
-        <tr><td>年令</td><td><?php echo $row['age']; ?></td> </tr>
+        <tr><td>年齢</td><td><?php echo $row['age']; ?></td> </tr>
         <tr><td>最終学歴</td><td><?php echo $row['academic']; ?></td> </tr>
         <tr><td>スキル(言語等)</td><td><?php echo $row['skill1'].'<br>'; echo $row['skill2'].'<br>'; echo $row['skill3'].'<br>';?></td> </tr>
 </table>
